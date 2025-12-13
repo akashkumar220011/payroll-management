@@ -1,4 +1,4 @@
-exports.processAttendence = (checkIn, checkOut, officeStart,officeEnd)=>{
+exports.processAttendance = (checkIn, checkOut, officeStart,officeEnd)=>{
     if(!checkIn || !checkOut) return {};
 
     const diffMinutes = (checkOut-checkIn)/60000;
